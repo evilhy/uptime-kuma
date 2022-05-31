@@ -4,6 +4,7 @@
 kind: pipeline
 name: default
    
+steps:
   - name: greeting
     image: alpine
     commands:
